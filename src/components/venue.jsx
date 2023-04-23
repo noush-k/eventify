@@ -19,8 +19,8 @@ function VenuePage() {
               <div class="card-body">
                 <h5 class="card-title">Shangrila</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  The cozy and intimate venue is perfect for small gatherings,
+                  with warm lighting and comfortable seating
                 </p>
                 <button className="b1">
                   <a href="#" class="btn btn-primary"></a>
@@ -34,8 +34,8 @@ function VenuePage() {
               <div class="card-body">
                 <h5 class="card-title">Unicornia</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This modern venue features sleek design and state-of-the-art
+                  sound system, ideal for music and entertainment events
                 </p>
                 <button className="b2">
                   <a href="#" class="btn btn-primary"></a>
@@ -49,8 +49,9 @@ function VenuePage() {
               <div class="card-body">
                 <h5 class="card-title">Radisson Suites</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Nestled in the heart of downtown, this historic venue boasts
+                  stunning architecture and a spacious layout, perfect for large
+                  events
                 </p>
                 <button className="b3">
                   <a href="#" class="btn btn-primary"></a>
@@ -64,8 +65,8 @@ function VenuePage() {
               <div class="card-body">
                 <h5 class="card-title">Jelly Beans</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  This outdoor venue offers breathtaking views of the city
+                  skyline, perfect for romantic dinners or cocktail parties
                 </p>
                 <button className="b4">
                   <a href="#" class="btn btn-primary"></a>
@@ -79,8 +80,9 @@ function VenuePage() {
               <div class="card-body">
                 <h5 class="card-title">Clandestine</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  With its rustic charm and natural setting, this venue is ideal
+                  for outdoor events- picnics, barbecues, and team-building
+                  activities
                 </p>
                 <button className="b5">
                   <a href="#" class="btn btn-primary"></a>

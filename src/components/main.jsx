@@ -16,8 +16,8 @@ function MainPage() {
               <div class="card-body">
                 <h5 class="card-title">Pick Venue</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Set the tone of your event right by picking the best venue
+                  from our handpicked choices
                 </p>
                 <Link to="/venue" style={{ textDecoration: "none" }}>
                   <button className="b1">
@@ -33,8 +33,8 @@ function MainPage() {
               <div class="card-body">
                 <h5 class="card-title">Pick Cuisine</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Choose from popular cuisines to make sure your guests have a
+                  meal they'll always remember
                 </p>
                 <Link to="/cuisine" style={{ textDecoration: "none" }}>
                   <button className="b2">
@@ -50,8 +50,8 @@ function MainPage() {
               <div class="card-body">
                 <h5 class="card-title">Invite Guests</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Add invitees to your RSVP without the hassle of having to send
+                  and manage invite responses
                 </p>
                 <Link to="/invite" style={{ textDecoration: "none" }}>
                   <button className="b3">
