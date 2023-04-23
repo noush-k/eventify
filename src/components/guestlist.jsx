@@ -1,4 +1,5 @@
 import React from "react";
+import "./guestlist.css";
 
 function GuestList() {
   const addToTable = () => {
@@ -26,18 +27,25 @@ function GuestList() {
   };
   return (
     <>
-      <h3>WHITELIST</h3>
-      <input type="text" placeholder="Name" />
+      <div>
+        <h1 className="logo">eventify.</h1>
+      </div>
+      <h3 className="whitelist">WHITELIST</h3>
+      <input className="name" type="text" placeholder="Name" />
       <br />
-      <input type="text" placeholder="Email" />
+      <input className="email" type="text" placeholder="Email" />
       <br />
-      <input type="text" placeholder="Status" />
+      <input className="status" type="text" placeholder="Status" />
       <br />
-      <button onClick={addToTable}>Submit</button>
+      <button className="submit" onClick={addToTable}>
+        Submit
+      </button>
       <table>
         <thead>
           <tr>
-            <th>Name</th>
+            <th>
+              <p className="c1">Name</p>
+            </th>
             <th>Email</th>
             <th>Status</th>
           </tr>

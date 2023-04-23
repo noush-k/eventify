@@ -1,5 +1,5 @@
 import React from "react";
-//import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 function HomePage() {
@@ -13,7 +13,12 @@ function HomePage() {
           simplify and enjoy your event to the fullest
         </h2>
       </div>
-      <button className="home-button">Get Started</button>
+      <Link to="/main" style={{ textDecoration: "none" }}>
+        <button className="home-button">
+          <a href="#" class="btn btn-primary"></a>
+          Get Started
+        </button>
+      </Link>
     </div>
   );
 }

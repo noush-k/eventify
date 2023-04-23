@@ -59,6 +59,12 @@ function LoginPage() {
           <input className="login-button" type="submit" value="Login" />
         </Link>
       </form>
+      <div>
+        <h3 className="or">Don't have an account?</h3>
+        <a href="./signup.jsx" className="signup">
+          Sign up
+        </a>
+      </div>
     </div>
   );
 }
