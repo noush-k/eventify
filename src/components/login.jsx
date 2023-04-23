@@ -61,7 +61,7 @@ function LoginPage() {
       </form>
       <div>
         <h3 className="or">Don't have an account?</h3>
-        <a href="./signup.jsx" className="signup">
+        <a href="./signup" className="signup">
           Sign up
         </a>
       </div>
