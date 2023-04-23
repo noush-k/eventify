@@ -33,6 +33,18 @@ function InvitePage() {
         ></input>
         <br></br>
 
+        <label className="wallet" for="wallet">
+          Wallet:
+        </label>
+        <input
+          className="w-input"
+          type="text"
+          id="wallet"
+          name="wallet"
+          required
+        ></input>
+        <br></br>
+
         <input className="submit" type="submit" value="Send Invite"></input>
       </form>
     </div>

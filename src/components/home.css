@@ -62,3 +62,14 @@ body {
   color: purple;
   box-shadow: #000;
 }
+
+.Main_page {
+  top: 125px;
+  left: 415px;
+  position: absolute;
+  color: white;
+  font-size: 7rem;
+  font-weight: 600;
+  text-shadow: 5px;
+  margin-bottom: 7px;
+}

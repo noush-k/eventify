@@ -83,3 +83,7 @@ td {
   color: #fff;
   font-weight: 200;
 }
+
+.go-to-main:hover {
+  cursor: pointer;
+}
