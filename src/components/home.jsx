@@ -13,7 +13,7 @@ function HomePage() {
           simplify and enjoy your event to the fullest
         </h2>
       </div>
-      <Link to="/main" style={{ textDecoration: "none" }}>
+      <Link to="/login" style={{ textDecoration: "none" }}>
         <button className="home-button">
           <a href="#" class="btn btn-primary"></a>
           Get Started

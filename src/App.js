@@ -9,6 +9,7 @@ import VenuePage from "./components/venue";
 import GuestList from "./components/guestlist";
 import Cuisine from "./components/cuisine";
 import InvitePage from "./components/invite";
+import CreatePage from "./components/create";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/guestlist" element={<GuestList />} />
           <Route path="/cuisine" element={<Cuisine />} />
           <Route path="/invite" element={<InvitePage />} />
+          <Route path="/create" element={<CreatePage />} />
         </Routes>
       </Router>
     </>
