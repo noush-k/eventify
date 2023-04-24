@@ -64,7 +64,7 @@ function SignupPage() {
         />
         <br />
         <br />
-        <Link to="/main">
+        <Link to="/create">
           <input className="submit-button" type="submit" value="Sign Up" />
         </Link>
       </form>

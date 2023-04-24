@@ -55,7 +55,7 @@ function LoginPage() {
         />
         <br />
         <br />
-        <Link to="/main">
+        <Link to="/create">
           <input className="login-button" type="submit" value="Login" />
         </Link>
       </form>
